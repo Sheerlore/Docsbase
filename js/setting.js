@@ -1,8 +1,6 @@
 const APPNAME = "アプリ名";
 const GITHUBURL = "#";
 
-
-
 export class App {
     appName = APPNAME;
     githubUrl = GITHUBURL;
