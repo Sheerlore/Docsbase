@@ -30,7 +30,7 @@ function createNavChild(title, link) {
     div.className = 'bd-toc-item';
     a.className = 'bd-toc-link text-reset';
     a.text = title;
-    a.href = "./" + link;
+    a.href = "content/" + link;
     div.appendChild(a);
     sideNav.appendChild(div);
 }
