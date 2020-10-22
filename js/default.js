@@ -21,7 +21,7 @@ function createList(title, link) {
 
     let a = document.createElement('a');
     a.text = title;
-    a.href = "content/" + link;
+    a.href = "./" + link;
     li.appendChild(a);
     ul.appendChild(li);
 }
