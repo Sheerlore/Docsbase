@@ -14,11 +14,11 @@ githubRepoUrl.setAttribute('href', GITHUB_REPO_URL);
 
 //navigationの設定
 for (let i of CONTENT_TABLE) {
-    createNavChild(i["title"], i["url"]);
+    createNavChild(i["title"], i["path"]);
 }
 
 // navの子要素を作成する関数
-function createNavChild(title, url) {
+function createNavChild(title, link) {
     // create a html template like below :
     // <div class="bd-toc-item">
     //   <a class="bd-toc-link text-reset" href=url>title</a>
@@ -30,7 +30,7 @@ function createNavChild(title, url) {
     div.className = 'bd-toc-item';
     a.className = 'bd-toc-link text-reset';
     a.text = title;
-    a.href = url;
+    a.href = "../content/" + link;
     div.appendChild(a);
     sideNav.appendChild(div);
 }

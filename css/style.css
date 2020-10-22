@@ -1,13 +1,18 @@
+/* ナビゲーション ----------------------------*/
 .bd-sidebar {
     background-color: #fff;
     font-size: 1.0rem;
 }
 
+/* メイン -----------------------------------*/
 .bd-content {
     background-color: #fff;
 }
 
 
+
+
+/* コードブロック -----------------------------*/
 pre {
     margin-bottom: 1.2em;
     /* padding: 0.8em; */
@@ -17,6 +22,7 @@ pre {
     -webkit-overflow-scrolling: touch;
 }
 
+/* コードブロックのファイル名 */
 .filename {
     padding: 2px 30px;
     background-color: rgb(198, 217, 223);
@@ -24,6 +30,7 @@ pre {
     user-select: none;
 }
 
+/* コードブロックの設定 */
 td.hljs-ln-numbers {
     -webkit-touch-callout: none;
     -webkit-user-select: none;
@@ -38,12 +45,11 @@ td.hljs-ln-numbers {
     vertical-align: top;
     padding-right: 5px !important;
 }
-
-/* for block of code */
 td.hljs-ln-line {
     padding-left: 10px !important;
 }
 
+/* メインのhタグ周りの設定 -------------------------------*/
 main>h1,
 h2,
 h3 {
