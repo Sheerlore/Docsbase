@@ -16,7 +16,6 @@ githubRepoUrl.setAttribute('href', GITHUB_REPO_URL);
 for (let i of CONTENT_TABLE) {
     createNavChild(i["title"], i["path"]);
 }
-
 // navの子要素を作成する関数
 function createNavChild(title, link) {
     // create a html template like below :
