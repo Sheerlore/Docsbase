@@ -5,7 +5,8 @@ import {
     CONTENT_TABLE,
 } from "../setting.js"
 
-const url = location.href;
+let url = location.hostname;
+console.log(url);
 
 let ul = document.querySelector('#content_list');
 
