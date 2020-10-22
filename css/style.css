@@ -1,14 +1,12 @@
 .bd-sidebar {
     background-color: #fff;
+    font-size: 1.0rem;
 }
 
 .bd-content {
     background-color: #fff;
 }
 
-.bd-toc-link {
-    font-size: 0.8rem;
-}
 
 pre {
     margin-bottom: 1.2em;
