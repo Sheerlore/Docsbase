@@ -10,7 +10,7 @@
       `"title"` : サイドバーの表示名  
       `"url"` : contentディレクトリからhtmlのパス
 
-2. `conetnt/template.html`をコピーして`content`フォルダにペースト。名前を変更して内容を書く。  
+2. `template.html`をコピーしてルートディレクトリにペースト。名前を変更して内容を書く。  
 おすすめは好きなmarkdown editorを使って記事を作成し、htmlにフォーマットしてコピペして貼ることです。
 > 注意: `index.html`をコピーしないでください
 
