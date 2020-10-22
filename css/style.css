@@ -34,16 +34,16 @@ td.hljs-ln-numbers {
     -ms-user-select: none;
     user-select: none;
 
-    text-align: right;
+    text-align: left;
     color: #ccc;
     border-right: 1px solid #ccc;
     vertical-align: top;
-    padding-right: 5px;
+    padding-right: 5px !important;
 }
 
 /* for block of code */
-td.hljs-ln-code {
-    padding-left: 10px;
+td.hljs-ln-line {
+    padding-left: 10px !important;
 }
 
 main>h1,
@@ -51,7 +51,7 @@ h2,
 h3 {
     font-weight: 700;
     margin: 1.3rem 0;
-    padding-bottom: 1.1rem;
+    padding-bottom: 0.4rem;
     border-bottom: 1px solid #ddd;
 }
 
