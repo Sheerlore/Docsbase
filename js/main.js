@@ -4,6 +4,8 @@ import {
     CONTENT_TABLE
 } from "../setting.js"
 
+let url = location.host;
+
 // アプリ名の指定
 let appName = document.querySelector('#app_name');
 appName.text = APPNAME;
@@ -29,7 +31,7 @@ function createNavChild(title, link) {
     div.className = 'bd-toc-item';
     a.className = 'bd-toc-link text-reset';
     a.text = title;
-    a.href = "./" + link;
+    a.href = url + "/" + link;
     div.appendChild(a);
     sideNav.appendChild(div);
 }

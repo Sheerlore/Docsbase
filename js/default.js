@@ -5,6 +5,8 @@ import {
     CONTENT_TABLE,
 } from "../setting.js"
 
+let url = location.host;
+
 let ul = document.querySelector('#content_list');
 
 let title = document.querySelector('#content_title');
@@ -21,7 +23,7 @@ function createList(title, link) {
 
     let a = document.createElement('a');
     a.text = title;
-    a.href = "./" + link;
+    a.href = url + "/"+ link;
     li.appendChild(a);
     ul.appendChild(li);
 }

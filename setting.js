@@ -8,6 +8,7 @@
 // --------------------------------------------
 export const APPNAME = "APP NAME";
 export const GITHUB_REPO_URL = "https://github.com/";
+export const REPO_NAME = "Docsbase";
 export let CONTENT_TABLE = [
     {
         "title": "content1",
