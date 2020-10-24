@@ -1,7 +1,8 @@
 import {
     APPNAME,
     GITHUB_REPO_URL,
-    CONTENT_TABLE
+    REPO_NAME,
+    CONTENT_TABLE,
 } from "../setting.js"
 
 // アプリ名の指定
@@ -33,7 +34,7 @@ function createNavChild(title, link, nav) {
     div.className = 'bd-toc-item';
     a.className = 'bd-toc-link text-reset';
     a.text = title;
-    a.href = "/" + link;
+    a.href = REPO_NAME + "/" + link;
     div.appendChild(a);
     nav.appendChild(div);
 }
@@ -44,18 +45,7 @@ function createIndexList(title, link, nav) {
 
     let a = document.createElement('a');
     a.text = title;
-    a.href = "/"+ link;
+    a.href = REPO_NAME + "/"+ link;
     li.appendChild(a);
     nav.appendChild(li);
-}
-
-function ones(fn, context) {
-    let result; 
-    return function () {
-        if (fn) {
-            result = fn.apply(context || this, arguments);
-            fn = context = null;
-        }
-        return result;
-    };
 }
