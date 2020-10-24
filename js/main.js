@@ -3,7 +3,7 @@ import {
     GITHUB_REPO_URL,
     REPO_NAME,
     CONTENT_TABLE,
-} from "../setting.js"
+} from "./setting.js"
 
 let origin = location.origin;
 
