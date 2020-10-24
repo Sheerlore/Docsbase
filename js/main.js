@@ -21,8 +21,8 @@ githubRepoUrl.setAttribute('href', GITHUB_REPO_URL);
 
 //navigationの設定
 for (let i of CONTENT_TABLE) {
-    createNavChild(i["title"], i["path"], sideNav);
-    createIndexList(i["title"], i["path"], indexUl);
+    createNavChild(i["title"], i["file_name"], sideNav);
+    createIndexList(i["title"], i["file_name"], indexUl);
 }
 
 // navの子要素を作成する関数

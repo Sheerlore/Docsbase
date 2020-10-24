@@ -6,9 +6,10 @@
 1. `setting.js`に必要事項を書き込む  
 `APPNAME`: アプリ名  
 `GITHUB_REPO_URL`: githubのrepositoryのURL  
+`REPO_NAME`: githubのreposioryの名前  
 `CONTENT_TABEL`: サイドバーに表示するものの設定。配列の中にjson形式で指定  
       `"title"` : サイドバーの表示名  
-      `"url"` : contentディレクトリからhtmlのパス
+      `"file_name"` : htmlの名前
 
 2. `template.html`をコピーしてルートディレクトリにペースト。名前を変更して内容を書く。  
 おすすめは好きなmarkdown editorを使って記事を作成し、htmlにフォーマットしてコピペして貼ることです。

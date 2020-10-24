@@ -12,15 +12,15 @@ export const REPO_NAME = "Docsbase";
 export let CONTENT_TABLE = [
     {
         "title": "content1",
-        "path": "content1.html"
+        "file_name": "content1.html"
     },
     {
         "title": "content2",
-        "path": "content2.html"
+        "file_name": "content2.html"
     },
     {
         "title": "content2",
-        "path": "content3.html"
+        "file_name": "content3.html"
     },
 
 ]
