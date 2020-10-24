@@ -5,6 +5,8 @@ import {
     CONTENT_TABLE,
 } from "../setting.js"
 
+let origin = location.origin;
+
 // アプリ名の指定
 let appName = document.querySelector('#app_name');
 let githubRepoUrl = document.querySelector('#github_repo_url');
@@ -34,7 +36,7 @@ function createNavChild(title, link, nav) {
     div.className = 'bd-toc-item';
     a.className = 'bd-toc-link text-reset';
     a.text = title;
-    a.href = REPO_NAME + "/" + link;
+    a.href = origin + "/" + REPO_NAME + "/" + link;
     div.appendChild(a);
     nav.appendChild(div);
 }
@@ -45,7 +47,7 @@ function createIndexList(title, link, nav) {
 
     let a = document.createElement('a');
     a.text = title;
-    a.href = REPO_NAME + "/"+ link;
+    a.href = origin + "/" + REPO_NAME + "/"+ link;
     li.appendChild(a);
     nav.appendChild(li);
 }
